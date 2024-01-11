@@ -1,0 +1,97 @@
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner{
+        height: 700px;
+    }
+    #banner .banner-item h1{
+        font-size: 58px;
+    letter-spacing: 25px;
+    }
+    #banner .banner-item img{
+        margin: 20px auto;
+    }
+    #about{
+        padding: 30px 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    #banner{
+        height: 550px;
+    }
+    #banner .banner-item h1{
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    #about .about-content .about-item:nth-child(2){
+        border: none;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    #banner{
+        height: 440px;
+    }
+    #banner .banner-item h1{
+        letter-spacing: 10px;
+        font-size: 39px;
+    }
+    #banner .banner-item h3{
+        font-size: 25px;
+    }
+    #about .about-content .about-item:nth-child(2){
+        border: none;
+    }
+    #service{
+        background: #f0f0e8;
+    }
+    #service .service-info {
+        text-align: center;
+    }
+    #service .service-content{
+        text-align: center;
+    }
+    #service .service-content .service-item{
+        padding: 15px 0;
+    }
+    #service .service-content .service-item h6{
+        margin: 0 auto;
+    }
+    
+}
+@media (max-width:575px) {
+    #banner{
+        height: 340px;
+    }
+    #banner .banner-item h1{
+        letter-spacing: 2px;
+        font-size: 39px;
+    }
+    #banner .banner-item h3{
+        font-size: 20px;
+    }
+    #banner .banner-item p{
+        font-size: 15px;
+    }
+    #banner .banner-item img{
+        height: 15px;
+        padding: 0 0;
+        margin: 30px auto;
+    }
+    #banner .banner-item a{
+        padding: 15px 25px;
+    }
+    #service{
+        background: #f0f0e8;
+    }
+    #service .service-info {
+        text-align: center;
+    }
+    #service .service-content{
+        text-align: center;
+    }
+    #service .service-content .service-item{
+        padding: 15px 0;
+    }
+    #service .service-content .service-item h6{
+        margin: 0 auto;
+    }
+}
